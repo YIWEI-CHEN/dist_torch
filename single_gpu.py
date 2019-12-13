@@ -146,6 +146,7 @@ def main():
             select_train_obj = train_obj
             select_test_acc = test_acc
             select_test_obj = test_obj
+            max_epoch = epoch
             utils.save(model, best_model_path)
 
         if os.path.exists(best_model_path):
